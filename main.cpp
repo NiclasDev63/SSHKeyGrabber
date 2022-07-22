@@ -11,7 +11,7 @@ int main()
 {
 	std::string message;
 	
-	//Place your WEBHOOKURL here
+	//Place your Webhook URL here
 	std::string url = "";
 
 	// Get Username
