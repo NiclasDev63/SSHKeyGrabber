@@ -1,11 +1,8 @@
 #include <string>
-#include <iostream>
 #include <filesystem>
 #include <fstream>
-#include <vector>
 #include <windows.h>
 #include <Lmcons.h>
-#include <sstream>
 #include "sendRequest.h"
 
 namespace fs = std::filesystem;
@@ -40,4 +37,6 @@ int main()
 		}
 	}
 	sendRequest(url, message);
+
+	return 0;
 }
